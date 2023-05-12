@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "tk.jandev.macromaker.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "InteractionManagerMixin"
+  ],
+  "client": [
+    "HandledScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

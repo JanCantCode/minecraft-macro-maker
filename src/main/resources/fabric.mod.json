@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "macromaker",
+  "version": "${version}",
+  "name": "macromaker",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/itsja/macromaker"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/macromaker/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "tk.jandev.macromaker.client.MacromakerClient"
+    ],
+    "main": [
+      "tk.jandev.macromaker.Macromaker"
+    ]
+  },
+  "mixins": [
+    "macromaker.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
